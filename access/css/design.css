@@ -1,0 +1,60 @@
+#mid_header_wrapper_mid {
+	background-image: url(../images/main_b.jpg);
+}
+
+
+#map_canvas {
+	clear: both;
+	height: 500px;
+	width: 648px;
+	border: 1px solid #CCCCCC;
+	margin-bottom: 20px;
+}
+
+.timesc {
+	clear: both;
+	width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #BFEAD3;
+}
+.timesc_ttl {
+	text-align: left;
+	background-color: #F7FFEE;
+	font-size: 90%;
+}
+.timesc_yll {
+	background-color: #FFFFCC;
+}
+.timesc th,.timesc td {
+	border: 1px solid #BFEAD3;
+	padding: 10px;
+}
+.timesc td {
+	text-align: center;
+	width: 8%;
+}
+.timesc th {
+	width: 30%;
+}
+strong.sat {
+	color: #33CCCC;
+}
+strong.sun {
+	color: #CC0000;
+}
+.accessdata {
+	clear: both;
+	margin-bottom: 10px;
+}
+.accessdata li {
+	font-weight: bold;
+	color: #333333;
+	background-image: url(../images/icon3.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}

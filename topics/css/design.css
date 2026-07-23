@@ -1,0 +1,208 @@
+#mid_header_wrapper_mid {
+	background-image: url(../images/main_b.jpg);
+}
+
+
+.list_yobo {
+	background-image: url(../images/yobo_back.gif);
+}
+.list_season {
+	background-image: url(../images/season_back.jpg);
+}
+.list_yobo,.list_season {
+	background-repeat: no-repeat;
+	background-position: bottom;
+	clear: both;
+	width: 650px;
+	margin-bottom: 30px;
+}
+.list_yobo div,.list_season div {
+	background-repeat: no-repeat;
+	background-position: top;
+	clear: both;
+	width: 650px;
+}
+.list_yobo div {
+	background-image: url(../images/yobo_ttl.gif);
+}
+.list_season div {
+	background-image: url(../images/season_ttl.jpg);
+}
+.topilist_txt {
+	float: left;
+	width: 320px;
+	font-size: 90%;
+	line-height: 160%;
+	padding-top: 100px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+.topilist_txt span {
+	display: block;
+	text-align: right;
+	padding-top: 5px;
+}
+.topilist_img {
+	float: right;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+
+
+.vaccine_t {
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #FFE271;
+}
+.vaccine_t th {
+	background-color: #FFF7D7;
+	background-image: url(../images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 17px;
+	padding-left: 20px;
+	color: #339900;
+	font-size: 90%;
+	line-height: 160%;
+}
+.vaccine_t td {
+	padding-left: 10px;
+	font-size: 75%;
+	line-height: 160%;
+}
+.vaccine_t th,.vaccine_t td {
+	width: 50%;
+	border: 1px solid #FFE271;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.seasonlist {
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #C6F394;
+}
+.seasonlist th {
+	text-align: left;
+	font-size: 75%;
+	background-color: #ECFBDB;
+	width: 28%;
+	font-weight: normal;
+}
+.seasonlist td {
+	text-align: center;
+	width: 6%;
+	font-size: 75%;
+}
+.seasonlist th,.seasonlist td {
+	padding: 5px;
+	border: 1px solid #C6F394;
+}
+.seasonlist_ttl {
+}
+
+
+
+.seasonbox {
+	clear: both;
+	width: 650px;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+.seasonbox.sp {
+	background-image: url(../images/season_spb.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.seasonbox.sm {
+	background-image: url(../images/season_smb.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.seasonbox.wn {
+	background-image: url(../images/season_wnb.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 50px;
+}
+.seasonbox.sp div,.seasonbox.sm div,.seasonbox.wn div {
+	width: 400px;
+	float: left;
+	padding-left: 30px;
+}
+.seasonbox.sp h3,.seasonbox.sm h3,.seasonbox.wn h3 {
+	font-size: 90%;
+	font-weight: bold;
+	color: #333333;
+	clear: both;
+	margin-bottom: 10px;
+}
+.seasonbox.sp p,.seasonbox.sm p,.seasonbox.wn p {
+	font-size: 75%;
+	line-height: 160%;
+	clear: both;
+	margin-bottom: 20px;
+}
+.sp p.season_ttl {
+	color: #FF6666;
+}
+.sm p.season_ttl {
+}
+.wn p.season_ttl {
+}
+.sp p.season_ttl,.sm p.season_ttl,.wn p.season_ttl {
+	font-size: 90%;
+	line-height: 160%;
+	clear: both;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.seasonimg_right {
+	float: right;
+	padding-right: 30px;
+}
+.seasonbox:after {
+height: 0;
+visibility: hidden ;
+content: ".";
+display: block ;
+clear: both ;
+}
+
+
+
+.vaccine_tn {
+	clear: both;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.vaccine_tn td {
+	padding-left: 10px;
+	font-size: 75%;
+	line-height: 160%;
+	width: 33%;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFE271;
+	background-image: url(../../common/images/arrow006.gif);
+	background-repeat: no-repeat;
+	background-position: left 14px;
+}
+.vaccine_tn td strong {
+	color: #FF6600;
+}

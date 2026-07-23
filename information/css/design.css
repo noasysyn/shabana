@@ -1,0 +1,102 @@
+#mid_header_wrapper_mid {
+	background-image: url(../images/main_b.jpg);
+}
+
+.taiou {
+	clear: both;
+	width: 650px;
+}
+.taiou div {
+	width: 230px;
+	float: left;
+	padding-right: 20px;
+}
+.taiou div h3 {
+	color: #FF6600;
+	clear: both;
+	margin-bottom: 10px;
+}
+.taiou table {
+	float: right;
+	width: 400px;
+}
+.taiou table td {
+	color: #FF6600;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	background-image: url(../images/taiou.jpg);
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	padding-left: 30px;
+}
+.onegai {
+	float: right;
+	width: 430px;
+}
+.onegai_l {
+	float: left;
+	margin-right: 20px;
+}
+.onegai_r {
+	float: right;
+}
+.onegai_l,.onegai_r {
+	width: 200px;
+}
+.onegai_l dt,.onegai_r dt {
+	font-weight: bold;
+	color: #FF6600;
+	background-image: url(../../common/images/h3.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	clear: both;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.onegai_l dd,.onegai_r dd {
+	font-size: 90%;
+	line-height: 160%;
+	clear: both;
+	margin-bottom: 15px;
+}
+.onegai p {
+	clear: both;
+	font-weight: bold;
+	color: #FF6600;
+}
+
+.timesc {
+	clear: both;
+	width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #BFEAD3;
+}
+.timesc_ttl {
+	text-align: left;
+	background-color: #F7FFEE;
+	font-size: 90%;
+}
+.timesc_yll {
+	background-color: #FFFFCC;
+}
+.timesc th,.timesc td {
+	border: 1px solid #BFEAD3;
+	padding: 10px;
+}
+.timesc td {
+	text-align: center;
+	width: 8%;
+}
+.timesc th {
+	width: 30%;
+}
+strong.sat {
+	color: #33CCCC;
+}
+strong.sun {
+	color: #CC0000;
+}

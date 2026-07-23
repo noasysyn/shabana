@@ -1,0 +1,56 @@
+#mid_header_wrapper_mid {
+	background-image: url(../images/main_b.jpg);
+}
+.privacy_txt {
+clear: both;
+padding-right: 30px;
+padding-left: 30px;
+}
+.privacy_txt li {
+	font-size: 75%;
+	line-height: 140%;
+	clear: both;
+	margin-bottom: 5px;
+	background-image: url(../../common/images/arrow005.gif);
+	background-repeat: no-repeat;
+	background-position: left 2px;
+	padding-left: 15px;
+}
+
+
+
+.sitemap {
+	clear: both;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sitemap li {
+	font-size: 90%;
+	background-image: url(../../common/images/arrow005.gif);
+	background-repeat: no-repeat;
+	background-position: left 2px;
+	clear: both;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.sitemap li ul {
+	clear: both;
+	margin-bottom: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.sitemap li ul li {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	background-image: url(../../common/images/arrow003.gif);
+	background-position: left 2px;
+}

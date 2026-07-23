@@ -1,0 +1,127 @@
+h1.summary {
+	clear: both;
+	width: 970px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#mainimg {
+	background-image: url(../images/mainimg_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	clear: both;
+	width: 100%;
+}
+#mainimg p {
+}
+
+
+.pickup {
+	clear: both;
+	width: 670px;
+	margin-right: -20px;
+}
+.pickup_con {
+	background-image: url(../images/pickup.gif);
+	background-repeat: no-repeat;
+	float: left;
+	height: 120px;
+	width: 315px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.pickup_con div {
+	width: 150px;
+	float: left;
+	padding-top: 20px;
+}
+.pickup_con div h3 {
+	background-image: url(../common/images/arrow004.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 25px;
+	clear: both;
+	margin-bottom: 10px;
+}
+.pickup_con div p {
+	font-size: 75%;
+	line-height: 150%;
+	clear: both;
+	padding-left: 25px;
+}
+.pickimg {
+	float: right;
+	padding: 5px;
+}
+
+.pickup:after,
+.pickup_con:after {
+height: 0;
+visibility: hidden ;
+content: ".";
+display: block ;
+clear: both ;
+}
+
+
+
+#information{
+	clear: both;
+	width: 620px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#information dt,
+#information dd{
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+#information dt{
+	float: left;
+	clear: left;
+	width: 7em;
+	color: #FF9900;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 140%;
+
+}
+
+#information dd{
+	padding-left: 8em;
+	border-bottom: dotted 1px #ddd;
+	font-size: 90%;
+	line-height: 140%;
+}
+* {
+	margin:0;
+	padding:0;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3";
+	list-style-type: none;
+	color: #666666;
+	font-size: 100%;
+}
+
+
+
+#mid_header_wrapper {
+}
+.redtxt {
+	color: #CC0000;
+}
+.buletxt {
+	color: #006CDF;
+}
+.ltxt {font-size: 120%;}
+.hako {
+	color: #FFFFFF;
+	background-color: #B80003;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+}

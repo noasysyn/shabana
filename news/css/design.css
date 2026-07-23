@@ -1,0 +1,37 @@
+#mid_header_wrapper_mid {
+	background-image: url(../images/main_b.jpg);
+}
+
+
+#information{
+	clear: both;
+	width: 620px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#information dt,
+#information dd{
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+#information dt{
+	float: left;
+	clear: left;
+	width: 7em;
+	color: #FF9900;
+	font-size: 90%;
+	font-weight: bold;
+	line-height: 140%;
+
+}
+
+#information dd{
+	padding-left: 8em;
+	border-bottom: dotted 1px #ddd;
+	font-size: 90%;
+	line-height: 140%;
+}
