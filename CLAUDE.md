@@ -55,3 +55,8 @@ python -m http.server 8000   # F:\前川さん引継ぎ\謝花医院\www で実�
 - HTML/CSS は UTF-8。ただし **`common/js/rollover.js` のコメントは Shift-JIS** で書かれており、UTF-8 として読むと文字化けする。このファイルを書き換える際はコメントを壊さないよう注意する（実処理には影響しない）。
 - DOCTYPE は XHTML 1.0 Transitional。既存コードに合わせて空要素は `<br />` のように閉じる。
 - 見出し・ボタン・電話番号の多くは画像（`common/images/`, 各 `images/`）。文言変更が画像差し替えを伴うことが多い。
+- 各ページ `<head>` の `target` 設定は `<script>` 内を `<!--` 〜 `//-->` で囲む古い書き方。HTML 整形ツールを通すと `<!--` が `< !` などに崩れて JS 構文エラーになり、`target` が未設定のままナビ強調が効かなくなる（過去に index / about / staff / information / topics/vaccine で発生）。整形後はここが `<!--` のままか確認する。
+
+## 運用上の注意
+
+- 編集前のバックアップが `index.html_20260305` や `img001 - コピー.jpg` のような名前で作業ツリーに置かれることがある。これらはコミットしない（`.gitignore` は無いので `git add` 時に個別に除外する）。
